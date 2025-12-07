@@ -19,22 +19,22 @@ body {
 }
 .icon {
   color: rgb(255, 255, 255);
-  padding-left: 450px;
-  padding-right: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 150px;
   h1 {
     font-size: 40px;
   }
 }
-.nev {
+.nav {
   background-color: rgb(85, 159, 255);
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+
 
   ul {
     display: flex;
@@ -49,16 +49,15 @@ body {
   }
 }
 .log {
-  padding-left: 250px;
   color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-}
-.b1 {
-  padding-left: 20px;
-  padding-right: 450px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-right: 150px;
 
-  button {
+      button {
     height: 34px;
     width: 165px;
     background-color: rgb(255, 161, 53);
@@ -68,10 +67,12 @@ body {
     font-size: 16px;
     font-family: sans-serif;
   }
-  button:hover {
+    button:hover {
     background-color: rgb(255, 151, 32);
   }
-}
+
+  }
+
 .mid-content {
   display: flex;
   gap: 20px;
@@ -110,7 +111,7 @@ img {
   padding-top: 80px;
 }
 .below-b {
-  background-color: rgba(197, 197, 197, 0.356);
+  background-color: rgba(130, 129, 129, 0.255);
   height: 185px;
   display: flex;
   align-items: center;
